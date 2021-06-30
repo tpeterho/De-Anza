@@ -40,6 +40,8 @@ plt.scatter(x,y)
 I = np.linspace(0,10, n)
 
 plt.plot(I,V(I), color='k')
+
+# inserts equation V = IR into plot
 plt.text(6, 10, r'$V =$%0.3f * I' % R(x,y,n), fontsize=15)
 
 plt.show()
