@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
 data = np.genfromtxt('data.txt')
 
 x = data[:,0]
