@@ -46,5 +46,3 @@ plt.xlabel("Time (s)")
 plt.ylabel("Charge (C)")
 plt.title("Approximation of Charge in RC Circuit")
 plt.show()
-
-plt.show()
